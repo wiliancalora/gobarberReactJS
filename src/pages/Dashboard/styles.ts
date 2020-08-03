@@ -30,6 +30,7 @@ export const HeaderContent = styled.div`
     }
   }
 `;
+
 export const Profile = styled.div`
   display: flex;
   align-items: center;
@@ -62,6 +63,7 @@ export const Content = styled.main`
   margin: 64px auto;
   display: flex;
 `;
+
 export const Schedule = styled.div`
   flex: 1;
   margin-right: 120px;
@@ -103,6 +105,10 @@ export const Section = styled.div`
     display: block;
     padding-bottom: 16px;
     margin-bottom: 16px;
+  }
+
+  > p {
+    color: #999591;
   }
 `;
 
