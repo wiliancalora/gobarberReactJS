@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
-// import { Content } from '../SignIn/styles';
 
 export const Container = styled.div``;
 
@@ -8,6 +7,7 @@ export const Header = styled.div`
   padding: 32px 0;
   background: #28262e;
 `;
+
 export const HeaderContent = styled.div`
   max-width: 1120px;
   margin: 0 auto;
@@ -52,10 +52,14 @@ export const Profile = styled.div`
       color: #f4ede8;
     }
 
-    strong {
+    a {
+      text-decoration: none;
       color: #ff9000;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
-  }
 `;
 
 export const Content = styled.main`
